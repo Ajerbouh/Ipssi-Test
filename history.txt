@@ -1,0 +1,279 @@
+    1  resetpassword
+    2  reboot
+    3  sudo reboot
+    4  ifconfig
+    5  ifconfig/all
+    6  man ifconfig
+    7  ls
+    8  vim
+    9  gcc
+   10  ls
+   11  vim ~\.bashrc
+   12  git
+   13  git
+   14  ll
+   15  vim ~/.bash_profile
+   16  ls
+   17  cd Documents/
+   18  ls
+   19  cd projetGit/
+   20  ls
+   21  pwd
+   22  cd ..
+   23  cd Ipssi-Test/
+   24  git checkout -b amine
+   25  echo oui >> oui.txt
+   26  cat oui.txt `
+   27  ls
+   28  ll
+   29  pwd
+   30  git branch -a
+   31  git status
+   32  cd ..
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls
+   37  ls
+   38  cd Documents/
+   39  cd Ipssi-Test/
+   40  git status
+   41  git add .
+   42  git commit -m "version propre"
+   43  ls
+   44  git log
+   45  git status
+   46  git add .
+   47  cat oui.txt 
+   48  git commit -m "added Amine branch and oui.txt in it"
+   49  git push -u origin amine
+   50  ls
+   51  git branch -a
+   52  git pull
+   53  ls
+   54  git branch -a
+   55  ls
+   56  echo hahahaha >> oui.txt
+   57  git add oui.txt 
+   58  git commit -m "changement ahahahahahaah"
+   59  git push origin amine
+   60  git branch -a
+   61  git fetch origin florian
+   62  git branch -a
+   63  ls
+   64  cat oui
+   65  cat oui.txt 
+   66  git fetch --all
+   67  git branch -a
+   68  git branch
+   69  git checkout florian
+   70  ls
+   71  git checkout amine
+   72  rm FLORIAN.txt 
+   73  git add .
+   74  git commit -m "remove FLORIAN.txt"
+   75  git push origin amine
+   76  git branch
+   77  ls
+   78  git checkout florian
+   79  ls
+   80  git checkout master
+   81  ls
+   82  git pull
+   83  ls
+   84  git checkout amine
+   85  ls
+   86  rm README.md 
+   87  git add .
+   88  git commit -m "removed Reade"
+   89  git push origin amine
+   90  ls
+   91  cd ..
+   92  git checkout master
+   93  cd Ipssi-Test/
+   94  git checkout master
+   95  git log
+   96  git status
+   97  git branch -a
+   98  git merge florian
+   99  ls
+  100  git pull
+  101  ls
+  102  ls
+  103  git pull
+  104  ls
+  105  git log --graph --all
+  106  git log --graph --all
+  107  git checkout florian
+  108  git pull
+  109  git checkout master
+  110  git merge florian
+  111  git push origin master
+  112  git ..
+  113  cd ..
+  114  ls
+  115  ls
+  116  mkdir ipssiRemake
+  117  cd ipssiRemake/
+  118  git init
+  119  ls
+  120  cd ..
+  121  rm -rf Ipssi-Test/
+  122  rm -rf IPSSI/
+  123  rm -rf projetGit/
+  124  cd ipssiRemake/
+  125  ls
+  126  git branch
+  127  ls
+  128  git init
+  129  git clone git@github.com:Ajerbouh/ipssiRemake.git
+  130  ls
+  131  pwd
+  132  cd ..
+  133  ls
+  134  rm -rf ipssiRemake/
+  135  git clone git@github.com:Ajerbouh/ipssiRemake.git
+  136  cd ipssiRemake/
+  137  ls
+  138  git branch branch1
+  139  git branch branch2
+  140  git branch -a
+  141  git checkout branch1
+  142  git status
+  143  touch oui.txt
+  144  git add .
+  145  git commit -m "ajout de oui.txt"
+  146  git push origin branch1
+  147  git checkout branch2
+  148  ls
+  149  touch non.txt
+  150  git add .
+  151  git commit -m "ajout de non.txt"
+  152  git push origin branch2
+  153  ls
+  154  git log
+  155  git checkout branch1
+  156  git merge branch2
+  157  git push origin branch1
+  158  touch final.txt
+  159  git add .
+  160  git commit -m "ah le final"
+  161  git push origin branch1
+  162  git checkout branch2
+  163  git checkout master
+  164  touch firstCommit.txt
+  165  git add firstCommit.txt 
+  166  git commit -m "ajoutfirstCommit"
+  167  git push origin master
+  168  git merge branch2
+  169  git push origin master
+  170  history
+  171  git checkout -q branch1
+  172  git checkout master
+  173  git pull origin master
+  174  ls
+  175  cd ..
+  176  git clone git@github.com:Ajerbouh/Ipssi-Test.git
+  177  cd Ipssi-Test/
+  178  ls
+  179  git checkout amine
+  180  touch ahoui.txt
+  181  git add ahoui.txt 
+  182  git commit -m "ajout de ahoui.txt"
+  183  git push origin amine
+  184  gpg --full-generate-key
+  185  gpg --default-new-key-algo rsa4096 --gen-key
+  186  brew install s3cmd
+  187  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  188  brew install gpg
+  189  gpg --full-generate-key
+  190  gpg --list-secret-keys --keyid-format LONG
+  191  gpg --list-secret-keys --keyid-format LONG
+  192  gpg --armor --export 5A3B33C4BD745AB2
+  193  pwd
+  194  pwd
+  195  git branch -a
+  196  ls
+  197  echo ahahahahah >> oui.txt 
+  198  git add oui.txt 
+  199  git commit -S -m "Rajout de ahahahahaha dans oui.txt + test signature"
+  200  gpg --armor --export 5A3B33C4BD745AB2
+  201  git config commit.gpgsign true
+  202  git commit -S -m "Rajout de ahahahahaha dans oui.txt + test signature"
+  203  git add oui.txt 
+  204  git status
+  205  git commit -S -m "Rajout de ahahahahaha dans oui.txt + test signature"
+  206  git config --global commit.gpgsign true
+  207  git commit -S -m "Rajout de ahahahahaha dans oui.txt + test signature"
+  208  gpg --full-generate-key
+  209  gpg --list-secret-keys --keyid-format LONG
+  210  gpg --armor --export 3756F43254949C4B
+  211  git status
+  212  git commit -S -m "salut ca se signe"
+  213  git config --global gpg.program gpg2
+  214  echo "test" | gpg2
+  215  gpg2
+  216  git config --global commit.gpgsign true
+  217  gpgsign
+  218* git config --global user.signingkey 
+  219  gpg --full-generate-key
+  220  git config --global commit.gpgsign true
+  221  gpg --armor --export 3756F43254949C4B
+  222  git config --global user.signky 3756F43254949C4B
+  223  cd Documents/
+  224  ls
+  225  cd Ipssi-Test/
+  226  git branch -a
+  227  git status
+  228  git commit -S -m "oui signe toi"
+  229  brew upgrade gpg
+  230  brew install pinentry-mac
+  231  echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+  232  killall gpg-agent
+  233  git log --show-signature -1
+  234  echo "test" | gpg --clearsign
+  235  git commit -S -m "zheoazhdskhds signe toi"
+  236  vim .gitconfig
+  237  vim ~/.gitconfig
+  238  cat .gitconfig
+  239  cat ~/.gitconfig
+  240  man gpg
+  241  gpg --list-keys --with-colors
+  242  gpg --list-keys --with-color
+  243  gpg --list-keys
+  244  gpg --delete-keys Ajerbouh
+  245  gpg --delete-secret-keys Ajerbouh
+  246  gpg --delete-keys Ajerbouh
+  247  gpg --delete-keys ajerbouh
+  248  gpg --delete-secret-keys ajerbouh
+  249  gpg --delete-keys ajerbouh
+  250  gpg --gen-key
+  251  gpg --list-secret-keys --keyid-format LONG
+  252  gpg --armor --export F7033FDF692F8A9E
+  253  git commit -S -m "signe"
+  254  git push origin amine
+  255  git config --global commit.gpgsign true
+  256  git status
+  257  ls
+  258  echo ahahahah >> ahoui.txt 
+  259  touch test.txt
+  260  git status
+  261  git commit -am -u "test"
+  262  git commit -a -m -u "test"
+  263  git commit -a -m "test"
+  264  git config --global alias.st status
+  265  git st
+  266  git add test.txt 
+  267  git st
+  268  ll
+  269  la
+  270  cd ..
+  271  ls
+  272  ls
+  273  cd Ipssi-Test/
+  274  ls
+  275  vim .gitignore
+  276  git st
+  277  git add .gitignore
+  278  git st
+  279  history > history.txt
